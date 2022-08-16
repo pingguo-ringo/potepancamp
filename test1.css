@@ -1,0 +1,208 @@
+header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  z-index: 99;
+  position: fixed;
+  box-sizing: border-box;
+  display: block;
+}
+.header_container {
+  max-width: 100%
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 0;
+  word-break: break-all;
+}
+.header_logo {
+  display: block;
+}
+.header_logo img {
+  height: 16px;
+}
+.header_logo img:hover {
+  opacity: 0.8;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  corsor: pointer;
+}
+.header_nav {
+  justify-content: space-between;
+}
+.header_nav_list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  text-align: center
+}
+.header_nav_list span {
+  display: block;
+  font-weight: 700;
+}
+.header_nav_list span:first-child {
+  font-size: 16px;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  color: #000;
+}
+.header_nav_list span:last-child {
+  font-size: 12px;
+  font-family: "游ゴシック";
+  letter-spacing: 5px;
+  color: #000;
+}
+.header_nav_list_btn {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  margin: 0 auto;
+  justify-content: center;
+  height: 60px;
+  width: 250px;
+  background-color: #f79214;
+  padding: 0 20px;
+  border: none;
+  border-radius: 38px;
+  flex-direction: column;
+}
+.header_nav_list_btn:hover{
+  opacity: 0.8;
+}
+.FirstView {
+background-image: url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+padding-top: 0;
+padding-bottom: 35px;
+height: 840px;
+background-size: cover;
+background-repeat: no-repeat;
+box-sizing: border-box;
+float: right;
+position: relative;
+width: 100%;
+}
+.FirstView_container {
+max-width: 1140px;
+padding-left: 50px;
+padding-right: 50px;
+margin-left: auto;
+margin-right: auto;
+position: absolute;
+top: 300px;
+}
+
+.FirstView_content_title {
+color: #000;
+font-family: 'Lato',sans-serif;
+font-size: 38px;
+font-weight: 700;
+line-height: 54px;
+margin-bottom: 15px;
+text-align: center;
+}
+.FirstView_content_images {
+margin-bottom: 15px;
+}
+.FirstView_content_buttons {
+  display: flex;
+}
+.btnA {
+display: flex;
+text-align: center;
+color: #fff;
+font-size: 16px;
+margin: 0 auto;
+justify-content: center;
+height: 60px;
+width: 250px;
+background-color: #f79214;
+padding: 0 20px;
+border: none;
+border-radius: 38px;
+align-items: center;
+}
+.btnA:hover {
+  opacity: 0.8;
+}
+.btnB {
+display: flex;
+text-align: center;
+background-color: #fff;
+font-size: 16px;
+margin: 0 auto;
+justify-content: center;
+border: 1px solid #e0e0e0;
+color: #000;
+height: 60px;
+width: 176px;
+border-radius: 38px;
+align-items: center;
+}
+.FirstViewCaption {
+color: #a2a2a4;
+font-size: 12px;
+line-height: 1.5;
+margin: 0;
+padding: 0;
+display: block;
+}
+.AboutWrapper {
+background-color: #f79214;
+padding: 44px 0;
+}
+
+.About_video {
+margin-bottom: 16px;
+width: 50%;
+position: absolute;
+top: 10px;
+left: 40px;
+}
+.About_title {
+  width: 50%;
+  float: right;
+}
+.About {
+flex-direction: column;
+max-width: 1140px;
+padding-left: 50px;
+padding-right: 50px;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+align-items: center;
+display: flex;
+justify-content: space-between;
+}
+.About h2 {
+font-family: "游ゴシック";
+font-size: 38px;
+font-weight: 900;
+letter-spacing: .1em;
+line-height: 54px;
+width: 100%;
+color: #fff;
+text-align: right;
+}
+.About p {
+display: inline-block;
+font-size: 16px;
+font-weight: 700;
+line-height: 26px;
+margin-bottom: 16px;
+color: #fff;
+text-align: right;
+word-break: break-all;
+}
+.About_botton {
+color: #fff;
+float: right;
+font-size: 18px;
+font-weight: 700;
+line-height: 26px;
+text-align: right;
+}
